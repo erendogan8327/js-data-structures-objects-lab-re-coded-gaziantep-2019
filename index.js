@@ -16,3 +16,4 @@ obj;
 // => { foo: "bar" }
 ```
 
+const driver = {};
