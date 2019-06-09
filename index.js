@@ -2,7 +2,7 @@ var driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
   
-const obj = { name: "Sam" };
+const obj = {name: 'Sam', address:'11 Broadway'};
 
 const newObj = Object.assign({}, obj);
 
@@ -12,9 +12,9 @@ newObj;
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
   
- const obj = { address: "12 Broadway" };
+const obj = { address: "12 Broadway" };
 
-const newObj = Object.assign({}, obj);
+const newObj = Object.update({}, obj);
 
 newObj; 
   
