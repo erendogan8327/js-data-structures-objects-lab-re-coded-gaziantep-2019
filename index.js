@@ -16,4 +16,4 @@ obj;
 // => { foo: "bar" }
 ```
 
-var driver = {};
+var driver = [];
